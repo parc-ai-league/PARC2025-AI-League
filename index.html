@@ -152,6 +152,69 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/PARC2025-AI-League/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/PARC2025-AI-League/fr/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     
     
   </nav>
@@ -488,6 +551,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#top-10-finalists-team-registration-fee-due-6925" class="md-nav__link">
+    <span class="md-ellipsis">
+      Top 10 Finalists Team Registration Fee| Due: 6/9/25
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#submission-of-final-report-code-due-62925" class="md-nav__link">
     <span class="md-ellipsis">
       Submission of Final Report &amp; Code | Due: 6/29/25
@@ -523,7 +595,7 @@
           <li class="md-nav__item">
   <a href="#code-of-conduct" class="md-nav__link">
     <span class="md-ellipsis">
-      Code of Conduct¶
+      Code of Conduct
     </span>
   </a>
   
@@ -532,7 +604,7 @@
           <li class="md-nav__item">
   <a href="#disqualification" class="md-nav__link">
     <span class="md-ellipsis">
-      Disqualification¶
+      Disqualification
     </span>
   </a>
   
@@ -801,6 +873,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#top-10-finalists-team-registration-fee-due-6925" class="md-nav__link">
+    <span class="md-ellipsis">
+      Top 10 Finalists Team Registration Fee| Due: 6/9/25
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#submission-of-final-report-code-due-62925" class="md-nav__link">
     <span class="md-ellipsis">
       Submission of Final Report &amp; Code | Due: 6/29/25
@@ -836,7 +917,7 @@
           <li class="md-nav__item">
   <a href="#code-of-conduct" class="md-nav__link">
     <span class="md-ellipsis">
-      Code of Conduct¶
+      Code of Conduct
     </span>
   </a>
   
@@ -845,7 +926,7 @@
           <li class="md-nav__item">
   <a href="#disqualification" class="md-nav__link">
     <span class="md-ellipsis">
-      Disqualification¶
+      Disqualification
     </span>
   </a>
   
@@ -933,10 +1014,11 @@
 <li><strong>5/21</strong>: Final Report &amp; Project Code due (100 pts; -10 pts/day late)</li>
 <li><strong>5/24-5/25</strong>: Virtual Final Presentation (50 pts; 10 min max, penalties for exceeding time limit or lack of participation from all members)</li>
 <li><strong>6/1</strong>: Top 10 finalists announced</li>
+<li><strong>6/9</strong>: Top 10 Finalists Team Registration Fee Due</li>
 <li><strong>6/29</strong>: Final Report &amp; Project Code submission (optional; no additional scoring).</li>
-<li><strong>7/7-7/12</strong>: Live presentations at PARC 2025 in Senegal (50 pts).</li>
+<li><strong>7/2025</strong>: Live presentations at PARC 2025 in Senegal (50 pts).</li>
 </ul>
-<p>Teams will be notified if there are any adjustments made to the dates. </p>
+<p>Teams will be notified if there are any adjustments made to the dates.</p>
 <table>
 <thead>
 <tr>
@@ -987,12 +1069,17 @@
 <td style="text-align: left;"><strong>0 pt</strong></td>
 </tr>
 <tr>
+<td style="text-align: right;">6/9</td>
+<td style="text-align: left;"><strong>Top 10 finalists team registration fee are due</strong></td>
+<td style="text-align: left;"><strong>0 pt</strong></td>
+</tr>
+<tr>
 <td style="text-align: right;">6/29</td>
 <td style="text-align: left;"><strong>Submission of Final Report and Project Code (Optional)</strong></td>
 <td style="text-align: left;"><strong>0 pt</strong></td>
 </tr>
 <tr>
-<td style="text-align: right;">7/7 - 7/12</td>
+<td style="text-align: right;">7/2025</td>
 <td style="text-align: left;"><strong>Live Presentations at PARC 2025 Competition in Senegal</strong></td>
 <td style="text-align: left;"><strong>115 pts</strong></td>
 </tr>
@@ -1000,7 +1087,7 @@
 </table>
 <h2 id="qualifying-rounds">Qualifying Rounds<a class="headerlink" href="#qualifying-rounds" title="Permanent link">¶</a></h2>
 <h3 id="concept-submission-due-4525">Concept Submission | Due: 4/5/25<a class="headerlink" href="#concept-submission-due-4525" title="Permanent link">¶</a></h3>
-<p>Your team must select a paper from a top-tier conference or journal, and each paper can only be used by one team. Use this tracker where you can enter your selected paper. Selection is on a first-come, first-served basis. </p>
+<p>Your team must select a paper from a top-tier conference or journal, and each paper can only be used by one team. Use this tracker where you can enter your selected paper. Selection is on a first-come, first-served basis.</p>
 <p>Your team must submit the concept one-pager by 4/5/2025 at 8PM GMT to remain eligible for the competition. <strong>Failure to submit by the deadline will result in disqualification</strong>. Submit the concept one-pager as a Word document via email to <a href="mailto:info@parcrobotics.org">info@parcrobotics.org</a> and cc <a href="mailto:atapo@parcrobotics.org">atapo@parcrobotics.org</a>.</p>
 <p>If you need ideas on machine learning fields of research, here is a non-comprehensive suggestion of categories to look for:</p>
 <ul>
@@ -1135,7 +1222,7 @@ Below are the required sections for the writeup, along with notes regarding requ
 <h3 id="2-neural-network-machine-learning-model-2-pages">2. Neural Network / Machine Learning Model (2 pages)<a class="headerlink" href="#2-neural-network-machine-learning-model-2-pages" title="Permanent link">¶</a></h3>
 <ul>
 <li>Neural Network Learning Model Summary</li>
-<li>Remember to include the loss metric used in training model. </li>
+<li>Remember to include the loss metric used in training model.</li>
 <li>
 <p>Focus on defining the model clearly, explaining key pieces of the parts.</p>
 </li>
@@ -1234,10 +1321,13 @@ Cite and summarize this in your discussion.</p>
 </li>
 </ol>
 <h2 id="top-10-finalists">Top 10 Finalists<a class="headerlink" href="#top-10-finalists" title="Permanent link">¶</a></h2>
+<h3 id="top-10-finalists-team-registration-fee-due-6925">Top 10 Finalists Team Registration Fee| Due: 6/9/25<a class="headerlink" href="#top-10-finalists-team-registration-fee-due-6925" title="Permanent link">¶</a></h3>
+<p>The top 10 finalists competing in Senegal must submit their $250 USD team registration fee to PARC by June 9, 2027, to secure their spot. This is a one-time payment covering the entire team’s registration. In return, PARC will provide each team with lodging, daily meals (breakfast, lunch, and dinner), transportation to and from the airport, and transportation between the dormitory and competition arena.</p>
+<p>Teams are responsible for covering any additional expenses including passport and visa fees, travel costs to Senegal, and any optional materials such as custom team t-shirts or a national flag to represent their home country at PARC.</p>
 <h3 id="submission-of-final-report-code-due-62925">Submission of Final Report &amp; Code | Due: 6/29/25<a class="headerlink" href="#submission-of-final-report-code-due-62925" title="Permanent link">¶</a></h3>
 <p>Finalists have the option to submit the same final report and code/implementation from the qualifiers, or submit an improved version. While updates and refinements are encouraged, the final submission will not be scored, and no additional points will be awarded. There is no penalty for not submitting a new version; in that case, the team’s qualifiers submission will be used by default. The team’s final score will be calculated by adding their qualifier round score to their Final round score from the live presentations in July.</p>
 <h3 id="final-live-presentations-due-live-at-parc-2025-competition-scoring-value-115">Final Live Presentations | Due: Live at PARC 2025 Competition | Scoring Value: 115<a class="headerlink" href="#final-live-presentations-due-live-at-parc-2025-competition-scoring-value-115" title="Permanent link">¶</a></h3>
-<p>The final presentation will be done in-person during PARC 2025. Each team will have a designated table and area to display their work. Teams are encouraged to bring a poster that visually summarizes the four key talking points from their presentation, as well as a printed copy of their final report. These deliverables are intended to help showcase the team’s project to judges and the audience. The posters will be scored out of 15 points, click <a href="assets/PARC%202025%20AI%20Rubric%20%26%20Scoring%20Scale.pdf">here</a> to view the judging rubric and scoring scale. 
+<p>The final presentation will be done in-person during PARC 2025. Each team will have a designated table and area to display their work. Teams are encouraged to bring a poster that visually summarizes the four key talking points from their presentation, as well as a printed copy of their final report. These deliverables are intended to help showcase the team’s project to judges and the audience. The posters will be scored out of 15 points, click <a href="assets/PARC%202025%20AI%20Rubric%20%26%20Scoring%20Scale.pdf">here</a> to view the judging rubric and scoring scale.
 For the live presentations, each team is allotted 7 minutes for their PowerPoint presentation, (this will be timed to not go above 7 minutes) and 5 minutes to answer questions from the judges. Each team member is required to speak for at least 1 minute. As similar to previous presentations, your final presentation should include:</p>
 <ol>
 <li>
@@ -1253,12 +1343,12 @@ For the live presentations, each team is allotted 7 minutes for their PowerPoint
 <p>Results, how they relate to the research question</p>
 </li>
 </ol>
-<p>The presentation will be scored out of 50 points, click <a href="assets/PARC%202025%20AI%20Rubric%20%26%20Scoring%20Scale.pdf">here</a> to view the judging rubric and scoring scale. 2 points will be subtracted for every minute the team speaks beyond 7 minutes. Additionally 2 points will be subtracted for every team member that does not present for the minimum requirement of 1 minute. </p>
+<p>The presentation will be scored out of 50 points, click <a href="assets/PARC%202025%20AI%20Rubric%20%26%20Scoring%20Scale.pdf">here</a> to view the judging rubric and scoring scale. 2 points will be subtracted for every minute the team speaks beyond 7 minutes. Additionally 2 points will be subtracted for every team member that does not present for the minimum requirement of 1 minute.</p>
 <p>During the competition, each team’s model will be tested on unseen data to evaluate its real-world performance. The model will be scored out of 50 points, click <a href="assets/PARC%202025%20AI%20Rubric%20%26%20Scoring%20Scale.pdf">here</a> to view the judging rubric and scoring scale. While teams have based their work on a specific dataset, we will provide a new dataset that they have not encountered before to assess how well their model generalizes. The unseen data will be designed based on each team’s final report submitted during the qualifiers. Depending on the nature of their project, we may use open-source data or generate synthetic data to ensure it is relevant to their specific task.
 The audience and judges will observe the live testing to see the model’s capabilities in action. In their reports and presentations, teams will have already defined their evaluation metrics, such as accuracy or F1 score, and explained what they are aiming to achieve. This final test will determine how well their model meets those expectations when faced with new data.</p>
 <h2 id="rules-and-regulations">Rules and Regulations<a class="headerlink" href="#rules-and-regulations" title="Permanent link">¶</a></h2>
 <p>We have established the following rules and regulations for the competition to ensure fair play and appropriate conduct among participants.</p>
-<h3 id="code-of-conduct">Code of Conduct¶<a class="headerlink" href="#code-of-conduct" title="Permanent link">¶</a></h3>
+<h3 id="code-of-conduct">Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permanent link">¶</a></h3>
 <p>We expect all participants to act professionally and ethically, and to comply with the following code of conduct:</p>
 <ul>
 <li>
@@ -1274,7 +1364,7 @@ The audience and judges will observe the live testing to see the model’s capab
 <p>Do not use the competition and its platforms to promote or advertise any products or services.</p>
 </li>
 </ul>
-<h3 id="disqualification">Disqualification¶<a class="headerlink" href="#disqualification" title="Permanent link">¶</a></h3>
+<h3 id="disqualification">Disqualification<a class="headerlink" href="#disqualification" title="Permanent link">¶</a></h3>
 <p>Participants may be disqualified from the competition for the following reasons:</p>
 <ul>
 <li>
